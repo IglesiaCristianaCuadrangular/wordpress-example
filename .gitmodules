@@ -1,0 +1,3 @@
+[submodule ".openshift/themes/IglesiaCuadrangular"]
+	path = .openshift/themes/IglesiaCuadrangular
+	url = https://github.com/IglesiaCristianaCuadrangular/Foursquare-WordPress-Theme.git
