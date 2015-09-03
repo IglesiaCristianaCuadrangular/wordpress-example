@@ -1,3 +1,6 @@
 [submodule ".openshift/themes/IglesiaCuadrangular"]
 	path = .openshift/themes/IglesiaCuadrangular
 	url = https://github.com/IglesiaCristianaCuadrangular/Foursquare-WordPress-Theme.git
+[submodule ".openshift/plugins/sendgrid-email-delivery-simplified"]
+        path = .openshift/plugins/sendgrid-email-delivery-simplified
+	url = https://github.com/wp-plugins/sendgrid-email-delivery-simplified.git
