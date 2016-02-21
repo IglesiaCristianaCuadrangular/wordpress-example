@@ -146,13 +146,9 @@ define('DOMAIN_CURRENT_SITE', 'iglesiacuadrangular.com.ve');
 define('PATH_CURRENT_SITE', '/');
 define('SITE_ID_CURRENT_SITE', 1);
 define('BLOG_ID_CURRENT_SITE', 1);
-define('WP_DEFAULT_THEME', 'IglesiaCuadrangular' );
+//define('WP_DEFAULT_THEME', 'IglesiaCuadrangular' );
 //define('NOBLOGREDIRECT', 'http://dev.iglesiacuadrangular.com.ve/');
-define('SENDGRID_USERNAME', "wordpresscuadrangular");
-define('SENDGRID_PASSWORD', "baa30de753");
-define('SENDGRID_SEND_METHOD', 'api');
 
-define('FORCE_SSL_ADMIN', false);
 define('COOKIE_DOMAIN', '');
 
 /*
