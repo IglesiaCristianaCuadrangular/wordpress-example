@@ -54,7 +54,7 @@ $table_prefix  = 'wp_';
 |
 */
 
-define('FORCE_SSL_ADMIN', true);
+define('FORCE_SSL_ADMIN', false);
 
 /*
 |--------------------------------------------------------------------------
@@ -112,6 +112,48 @@ define('DB_COLLATE', '');
 */
 
 require_once(getenv('OPENSHIFT_REPO_DIR') . '.openshift/openshift.inc');
+
+/**
+ * WordPress Localized Language, defaults to English.
+ *
+ * Change this to localize WordPress. A corresponding MO file for the chosen
+ * language must be installed to wp-content/languages. For example, install
+ * de_DE.mo to wp-content/languages and set WPLANG to 'de_DE' to enable German
+ * language support.
+ */
+define('WPLANG', '');
+
+/**
+ * For developers: WordPress debugging mode.
+ *
+ * Change this to true to enable the display of notices during development.
+ * It is strongly recommended that plugin and theme developers use WP_DEBUG
+ * in their development environments.
+ */
+define('WP_DEBUG', false);
+
+define('DISALLOW_FILE_EDIT',true);
+define('DISALLOW_FILE_MODS',true);
+define( 'AUTOMATIC_UPDATER_DISABLED', true );
+
+/**
+ * We prefer to be secure by default
+ */
+define('WP_ALLOW_MULTISITE', true);
+define('MULTISITE', true);
+define('SUBDOMAIN_INSTALL', true);
+define('DOMAIN_CURRENT_SITE', 'iglesiacuadrangular.com.ve');
+define('PATH_CURRENT_SITE', '/');
+define('SITE_ID_CURRENT_SITE', 1);
+define('BLOG_ID_CURRENT_SITE', 1);
+define('WP_DEFAULT_THEME', 'IglesiaCuadrangular' );
+//define('NOBLOGREDIRECT', 'http://dev.iglesiacuadrangular.com.ve/');
+define('SENDGRID_USERNAME', "wordpresscuadrangular");
+define('SENDGRID_PASSWORD', "baa30de753");
+define('SENDGRID_SEND_METHOD', 'api');
+
+define('FORCE_SSL_ADMIN', false);
+define('COOKIE_DOMAIN', '');
 
 /*
 |--------------------------------------------------------------------------
